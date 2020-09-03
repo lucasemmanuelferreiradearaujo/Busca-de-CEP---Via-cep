@@ -2,7 +2,7 @@ import requests
 
 class BaseDeDados:
     def __init__(self):
-        self.arquivo = open('cep.txt', 'r')
+        self.arquivo = open('cep.txt', 'r') #Caso queira é só troca o 'cep.txt' pelo nome do arquivo que estão contidos os CEP's.
         self.listacep = list()
         self.listainformacao = []
 
